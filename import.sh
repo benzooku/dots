@@ -1,5 +1,5 @@
 #! /usr/bin/bash
-mkdir conf
+
 cp -r ~/.config/alacritty conf/.config/
 
 cp -r ~/.config/hypr conf/.config/
