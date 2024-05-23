@@ -46,5 +46,15 @@ return require('packer').startup(function(use)
 
     use ('tpope/vim-endwise')
     use ('tpope/vim-rails')
-  
+    
+    use "nvim-lua/plenary.nvim" -- don't forget to add this one if you don't have it yet!
+
+    use {
+        "ThePrimeagen/harpoon",
+        branch = "harpoon2",
+        requires = { {"nvim-lua/plenary.nvim"} }
+    }
+
+    use ('echasnovski/mini.nvim')
+    use ('echasnovski/mini.nvim')
 end)
