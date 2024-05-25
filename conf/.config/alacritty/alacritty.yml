@@ -1,4 +1,0 @@
-window:
-  opacity: 0.8
-import:
-  - ~/.config/alacritty/aura-theme.yml
