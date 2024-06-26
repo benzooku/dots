@@ -45,7 +45,7 @@ local plugins = {
     },
 
     'tpope/vim-endwise',
-    'tpope/vim-rails',
+    
     
     "nvim-lua/plenary.nvim", -- don't forget to add this one if you don't have it yet!
 
@@ -57,21 +57,7 @@ local plugins = {
 
     'echasnovski/mini.nvim',
 
-    {
-        "arnaupv/nvim-devcontainer-cli",
-        opts = {
-            -- By default, if no extra config is added, following nvim_dotfiles are
-            -- installed: "https://github.com/LazyVim/starter"
-            -- This is an example for configuring other nvim_dotfiles inside the docker container
-            nvim_dotfiles_repo = "https://github.com/benzooku/dots.git",
-            nvim_dotfiles_install_command = "cd /home/null/dots && ./install.sh",
-            -- In case you want to change the way the devenvironment is setup, you can also provide your own setup
-            setup_environment_repo = "https://github.com/arnaupv/setup-environment",
-            setup_environment_install_command = "apt -y install neovim",
-            remove_existing_container = true,
-            nvim_dotfiles_directory = "dots/",
-        }
-    },
+    { 'https://codeberg.org/esensar/nvim-dev-container' },
 
 
 }
